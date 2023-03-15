@@ -67,6 +67,6 @@ jobs:
               uses: peter-evans/dockerhub-description@v3
               with:
                   username: ${{ secrets.DOCKERHUB_USERNAME }}
-                  password: ${{ secrets.DOCKERHUB_PASSWORD }}
-                  repository: gokhlayeh/textidote
+                  password: ${{ secrets.DOCKERHUB_TOKEN }}
+                  repository: marcosrmartin/textidote
                   readme-filepath: doc/docker/README.md
